@@ -27,7 +27,7 @@ function compareToStart(obj) {
     if(startTime != "" && endTime != ""){
         if(endTime<startTime){
             alert(startTime+","+endTime);
-            $(obj).prev().val(currentTime);
+            alert($(obj).prev().val()+"end");
         }
     }
 }
